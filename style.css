@@ -30,14 +30,15 @@ html, body {
     background-repeat: no-repeat;
     width: 100%;
     margin: 0px;
-    padding-bottom: 0px;
+    padding: 0px;
     background-image: url(sec2.png);
     display: table;
     background-size: cover;
-    background-position: bottom center;
+    background-position: center;
 }
 
 .head3 {
+    min-width: 480px;
     background-repeat: no-repeat;
     width: 100%;
     height: 300px;
@@ -55,6 +56,7 @@ html, body {
 }
 
 .head4 {
+    min-width: 480px;
     background-repeat: no-repeat;
     width: 100%;
     margin: 0px;
@@ -127,17 +129,6 @@ html, body {
     padding-left: 10px;
 }
 
-.fll {
-    text-align: center;
-    float: left;
-    width: 450px;
-    padding-left: 5%;
-    padding-top: 10%;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 100%;
-}
-
 .wrapper {
     width: 100%;
     height: auto;
@@ -148,6 +139,7 @@ html, body {
 }
 
 .wrapper1 {
+    min-width: 480px;
     width: 100%;
     height: auto;
     display: flex;
@@ -173,7 +165,7 @@ html, body {
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 100%;
-    width: 500px;
+    width: 400px;
     height: 300px;
     box-sizing: border-box;
     text-align: center;
@@ -280,10 +272,25 @@ html, body {
 }
 }
 @media screen and (max-width: 768px) {
-
+    body {
+        max-width: 768px;
+    }
+    .content .links .link{
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 500%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+    
 }
 @media screen and (max-width: 480px) {
-
+    body {
+        max-width: 480px;
+    }
 }
 
 #myBtn {
