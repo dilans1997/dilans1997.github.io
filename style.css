@@ -6,6 +6,11 @@ a {
     text-decoration: none;
 }
 
+.inner {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -244,7 +249,7 @@ html, body {
 .box1 img {
     max-width: 50%;
     max-height: 60%;
-    padding: 0px;
+    padding: 10px;
     margin: 0px;
     border: 0px;
 }
